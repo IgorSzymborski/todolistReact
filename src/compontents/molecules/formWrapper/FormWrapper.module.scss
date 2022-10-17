@@ -1,0 +1,21 @@
+@import '/src/styles/mixings';
+
+.inputContainer{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  @include breakpoints(mobile){
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  &__input{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    font-size: 16px;
+    @include breakpoints(mobile){
+      margin: 16px 0;
+    }
+  }
+}

@@ -1,0 +1,8 @@
+@import '/src/styles/mixings';
+
+.container{
+  padding: 5rem 12rem;
+  @include breakpoints(mobile){
+    padding: 2rem 1rem;
+  }
+}
